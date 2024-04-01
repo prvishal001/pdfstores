@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>PDF Files</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" href="logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="pdf.css">
+	<style>
+
+</style>
+	</style>
+</head>
+<body>
+<nav>
+	<a href="index.html"><img src="title-logo.png"></a>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">More</a></li>
+		<li><a href="#">About</a></li>
+	</ul>
+</nav>
+<div class="topic">
+	<ul id="topic_list">
+		<li><a href="#" onclick="show_data('INDIA')">INDIA</a></li>
+		<li><a href="#" onclick="show_data('AKTU')">AKTU</a></li>
+		<li><a href="#" onclick="show_data('MGKVP')">MGKVP</a></li>
+		<li><a href="#" onclick="show_data('BOOKS')">BOOKS</a></li>
+		<li><a href="#" onclick="show_data('BHU')">BHU</a></li>
+		<li><a href="#" onclick="show_data('GK')">General Knowledge</a></li>
+		<li><a href="#" onclick="show_data('Others')">Others</a></li>
+	</ul>
+</div>
+<div class="main-div">
+	<div class="left-div">
+		<h2 id="left-div-head">Home</h2>
+		<ul id="list">
+			<li><button onclick="viewPDF('intro.pdf')">PDF STORE Introduction</button></li>
+		</ul>
+	</div>
+	<div class="right-div">
+		<div id="pre-pdf">
+				<h1 class="head center">Read with Purpose<br>Learn with Determination<br>and<br>Skill will become your Ally.</h1>
+			
+				<h2 class="center">With the world's largest web developer site.</h2>
+		</div>
+		<div id="pdf-container">
+        <iframe id="pdf-viewer" width="100%" height="100%"></iframe>
+    </div>
+	
+	</div>
+</div>
+<footer>
+	<p>Copyright &copy; 2024</p>
+</footer>
+<script>
+
+</script>
+
+<script src="pdf.js"></script>
+</body>
+</html>
