@@ -100,7 +100,6 @@ function show_data(title) {
 			'<li><button onclick="viewPDF(\'Computer Architecture - PDF Room.pdf\')">Computer Architecture</button></li>'+
 			'<li><button onclick="viewPDF(\'computer graphics and multimedia application.pdf\')">Computer Graphics and Multimedia Application</button></li>'+
 			'<li><button onclick="viewPDF(\'Computer Organization and ArchitectureWilliam-Stallings-Designing-for-Performance-8th-Edition-Prentice-Hall-2011.pdf\')">Computer Organization and Architecture</button></li>'+
-			'<li><button onclick="viewPDF(\'Computer_Network_And_Network_Security.pdf\')">Computer Network And Network Security</button></li>'+
 			'<li><button onclick="viewPDF(\'cryptography-and-network-security_-principles-and-practice-7th-global-edition.pdf\')">Cryptography and Network Security</button></li>'+
 			'<li><button onclick="viewPDF(\'cyber_security.pdf\')">Cyber Security</button></li>'+
 			'<li><button onclick="viewPDF(\'DATABASE MANAGEMENT SYSTEMS.pdf\')">Database Management System</button></li>'+
