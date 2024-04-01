@@ -159,8 +159,20 @@ iframe{
 }
 	
 footer{
+	background-image: url('background.jpg'); 
+	background-repeat: no-repeat; 
+	background-size: cover;
 	margin-left:20%;
-	height:200px;
-	background:white;
+	height:450px;
 	margin-bottom:0;
+	padding-top:410px;
+}
+footer p{
+	background:#fff4a3;
+	text-align:center;
+	font-weight:660;
+	font-family:"Segoe UI", Arial, sans-serif;
+	height:40px;
+	padding-top:5px;
+	box-shadow: 0px -15px 15px rgba(244, 244, 244, 0.5);
 }
