@@ -39,6 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 function show_data(title) {
+		myFunction();
 	// Selecting the first element with a specific ID
 	document.querySelector('#left-div-head').innerHTML = title;
 	var left_div = document.querySelector('.left-div ul');
@@ -130,4 +131,27 @@ switch(title) {
 
 
 }
-	
+
+
+// JavaScript for smooth horizontal scrolling
+document.addEventListener('DOMContentLoaded', function() {
+    const navbar = document.querySelector('.topic');
+    navbar.addEventListener('wheel', function(event) {
+        event.preventDefault();
+        navbar.scrollLeft += event.deltaX;
+    });
+});
+
+// JS for Responsiveness
+
+/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+function myFunction() {
+  var x = document.querySelector(".left-div");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+
