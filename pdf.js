@@ -101,7 +101,7 @@ switch(title) {
         '<li><button onclick="viewPDF(\'Computer Architecture - PDF Room.pdf\')" title="Computer Architecture">Computer Architecture</button></li>'+
         '<li><button onclick="viewPDF(\'computer graphics and multimedia application.pdf\')" title="Computer Graphics and Multimedia Application">Computer Graphics and Multimedia Application</button></li>'+
         '<li><button onclick="viewPDF(\'Computer Organization and ArchitectureWilliam-Stallings-Designing-for-Performance-8th-Edition-Prentice-Hall-2011.pdf\')" title="Computer Organization and Architecture">Computer Organization and Architecture</button></li>'+
-        '<li><button onclick="viewPDF(\'Computer_Network_And_Network_Security.pdf\')" title="Computer Network And Network Security">Computer Network And Network Security</button></li>'+
+        
         '<li><button onclick="viewPDF(\'cryptography-and-network-security_-principles-and-practice-7th-global-edition.pdf\')" title="Cryptography and Network Security">Cryptography and Network Security</button></li>'+
         '<li><button onclick="viewPDF(\'cyber_security.pdf\')" title="Cyber Security">Cyber Security</button></li>'+
         '<li><button onclick="viewPDF(\'DATABASE MANAGEMENT SYSTEMS.pdf\')" title="Database Management System">Database Management System</button></li>'+
@@ -115,6 +115,7 @@ switch(title) {
         '<li><button onclick="viewPDF(\'let-us-c-authentic-guide-to-c-programming-language-19nbsped-9355512767-9789355512765.pdf\')" title="Let Us C">Let Us C</button></li>'+
         '<li><button onclick="viewPDF(\'Mathematics for Computer Science (2011 May book).pdf\')" title="Mathematics">Mathematics</button></li>'+
         '<li><button onclick="viewPDF(\'micropreocessor_intel_book.pdf\')" title="Microprocessor">Microprocessor</button></li>'+
+	'<li><button onclick="viewPDF(\'Computer_Network_And_Network_Security.pdf\')" title="Network Security Essentials">Network Security Essentials</button></li>'+
         '<li><button onclick="viewPDF(\'NumericalMethods.pdf\')" title="Numerical Methods">Numerical Methods</button></li>'+
         '<li><button onclick="viewPDF(\'Operating_System_Concepts_8th_EditionA4.pdf\')" title="Operating System">Operating System</button></li>'+
         '<li><button onclick="viewPDF(\'Operations-Research-.pdf\')" title="Operations Research">Operations Research</button></li>'+
