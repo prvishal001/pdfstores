@@ -5,7 +5,6 @@
 	font-family: 'Source Sans Pro', sans-serif;
 }
 body{
-	min-height:1000px;
 	margin: 0;
 	overflow-x: hidden;
 }
@@ -15,7 +14,7 @@ nav{
 	display:flex;
 	justify-content:space-around;
 	background:white;
-	height:50px;
+	height:55px;
 	font-size:20px;
 	top:0;
 	position:sticky;
@@ -39,7 +38,7 @@ nav ul li a{
 	height:100%;
 	display:inline-block;
 	text-decoration:none;	
-	padding:12px;
+	padding:15px;
 }
 nav ul li a:hover{
 	background:#FFF4A3;
@@ -52,7 +51,7 @@ nav ul li a:hover{
 	font-size:15px;
 	height:30px;
 	background:#2f2f2f;
-	top:50px;
+	top:55px;
 	position:sticky;
 	z-index:50;
 
@@ -75,6 +74,9 @@ nav ul li a:hover{
 	height:100%;
 	padding:6px 15px 6px 15px;
 	font-weight:400;
+}
+#icon{
+	display:none;
 }
 .topic ul li a:hover{
 	background:black;
@@ -162,7 +164,6 @@ footer{
 	background-image: url('background.jpg'); 
 	background-repeat: no-repeat; 
 	background-size: cover;
-	margin-left:20%;
 	height:450px;
 	margin-bottom:0;
 	padding-top:410px;
@@ -176,3 +177,4 @@ footer p{
 	padding-top:5px;
 	box-shadow: 0px -15px 15px rgba(244, 244, 244, 0.5);
 }
+
